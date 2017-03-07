@@ -1,0 +1,655 @@
+﻿<!DOCTYPE html>
+<html>
+	<head>
+		<title>silownia</title>
+		<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+		<link href = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel = "stylesheet">
+		<link href = "css/styles.css" rel = "stylesheet">
+		<link rel="stylesheet" type="text/css" href="css/animate.css" />
+		<link href="css/ayoshare.css" rel="stylesheet">
+		<link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css" rel="stylesheet">
+		<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+<nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="navbar-brand navbar-brand-centered">
+        <img src="https://upload.wikimedia.org/wikipedia/en/1/1a/Hampton_Jitney_logo.svg" alt = "logo" />
+      </div>
+    </div>
+
+    <div class="collapse navbar-collapse" id="navbar-brand-centered">
+      <ul class="nav navbar-nav">
+        <li class = "cl-effect-1"><a href="#">Glowna</a>
+        </li>
+        <li class = "cl-effect-1"><a href="#">Artykuly</a>
+        </li>
+        <li class = "cl-effect-1"><a href="#">Diety</a>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+		<li class = "cl-effect-1"><a href="#">Kontakt</a>
+        </li>
+		<li class = "cl-effect-1"><a href="#">Forum</a>
+		</li>
+		<li class = "cl-effect-1"><a href="#"><i class="fa fa-search fa-lg"></i></a>
+		</li>
+		<li class = "cl-effect-1 dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			<a href="#"><i class="fa fa-user fa-lg"></i></a>
+		</li>
+  <ul class="dropdown-menu" aria-labelledby="dLabel">
+    <input class="form-control" placeholder="Username" name="loginname" type="text" autofocus>
+	<input class="form-control" placeholder="Password" name="passwordname" type="text">
+	<a href="#" class="btn btn-primary" role="button">Zaloguj sie</a>
+	<a href="#" class="btn btn-info" role="button">Rejestracja</a>
+  </ul>
+	</div>
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+  <!-- /.container-fluid -->
+</nav>
+
+<div class="container text-center">
+	<div class="ribbon hidden-xs">
+		<a href="#" data-toggle="modal" data-target=".bs-example-modal-lg">Idea powstania www</a>
+		
+	</div>
+
+	<div class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content" style = "color:black">
+      Cześć, witam Cię serdecznie! Stronie naturalnamasa.pl przyświeca idea promowania naturalnej kulturystyki. Obserwując dzisiejszą scenę kulturystyczną
+	  widzę wiele zakłamania, w Polsce dopiero to wybrzmiewa, na zachodzie już się mówi o tym wprost. Pamiętajcie, że nie wszystko co widzicie w telewizji
+	  czy gazetach jest prawdą. Musicie sami wyciągać wnioski z tego co obserwujecie. Dlatego na tej stronie chciałbym opisywać dla Was moje spostrzeżenia
+	  dotyczące ogólnopojętej kulturysytki, skupiając się na jej zdrowotności i naturalnych możliwościach przeciętnego ludzkiego organizmu.
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+      <div class="col-sm-12">
+			
+			<div class = "hidden-custo">
+			<h1 class="animated fadeInUp">Naturalnie, do celu!</h1>
+			</div>
+		<div id="typed-strings">
+			<span class = "typedjs"></span>
+        </div>
+      </div>
+</div>
+
+<div class="container animated fadeInDown">
+
+                <!-- Slider -->
+                <div class="row">
+                    <div class="col-xs-12" id="slider">
+                        <!-- Top part of the slider -->
+                        <div class="row">
+                            <div class="col-sm-8" id="carousel-bounding-box">
+                                <div class="carousel slide carousel-fade" id="myCarousel">
+                                    <!-- Carousel items -->
+									
+                                    <div class="carousel-inner">
+										
+                                        <div class="active item" data-slide-number="0">
+										
+                                        <img src="https://pbs.twimg.com/media/C29iCT6XgAAxuvO.jpg" alt = "slideimage1" style="border-radius: 10px;"></div>
+
+                                        <div class="item" data-slide-number="1">
+                                        <img src="http://www.fitness.me.uk/wp-content/uploads/Six-Pack-Abs-770x300.jpg" alt = "slideimage2"></div>
+
+                                        <div class="item" data-slide-number="2">
+                                        <img src="img/lifting.jpg" alt = "slideimage3"></div>
+
+                                        <div class="item" data-slide-number="3">
+                                        <img src="http://simply-progress.de/wp-content/uploads/2016/01/Fotolia_89797147_S-770x300.jpg" alt = "slideimage4"></div>
+
+                                        <div class="item" data-slide-number="4">
+                                        <img src="img/hantle.jpg" alt = "slideimage5"></div>
+
+                                        <div class="item" data-slide-number="5">
+                                        <img src="http://crossfitgranadahills.com/wp-content/uploads/2014/12/Crossfit-1000x300-770x300.jpg" alt = "slideimage6"></div>
+                                    </div><!-- Carousel nav -->
+                                    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                                        <span class="glyphicon glyphicon-chevron-left"></span>                                       
+                                    </a>
+                                    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                                        <span class="glyphicon glyphicon-chevron-right"></span>                                       
+                                    </a>                                
+                                    </div>
+                            </div>
+
+                            <div class="col-sm-4 animated fadeInRight delay" id="carousel-text"></div>
+
+                            <div id="slide-content" style="display: none;">
+                                <div id="slide-content-0">
+								<div class = "slide0">
+                                    <h2>Tytul pierwszy</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales neque, non ultrices nisi. Suspendisse at lacinia elit, at sodales massa.</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+								</div>
+                                </div>
+
+                                <div id="slide-content-1">
+									<div class = "slide1">
+                                    <h2>Tytul drugi</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales neque, non ultrices nisi. Suspendisse at lacinia elit, at sodales massa.</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+									</div>
+                                </div>
+
+                                <div id="slide-content-2">
+								<div class = "slide2">
+                                    <h2>Tytul trzeci</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sodales neque, non ultrices nisi. Suspendisse at lacinia elit, at sodales massa.</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+								</div>
+                                </div>
+
+                                <div id="slide-content-3">
+								<div class = "slide3">
+                                    <h2>Tytul czwarty</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+								</div>
+                                </div>
+
+                                <div id="slide-content-4">
+								<div class = "slide4">
+                                    <h2>Tytul piaty</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+								</div>
+                                </div>
+
+                                <div id="slide-content-5">
+								<div class = "slide5">
+                                    <h2>Tytul szosty</h2>
+									<hr class = "linehr"></hr>
+                                    <p>Lorem Ipsum Dolor</p>
+                                    <p class="sub-text well-news">October 24 2014 - <a href="#"><button type="button" class="btn btn-xs btn-primary">Wiecej</button></a></p>
+								</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div><!--/Slider-->
+
+                <div class="row hidden-xs animated fadeInLeft delay" id="slider-thumbs">
+                        <!-- Bottom switcher of slider -->
+                        <ul class="hide-bullets">
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-0"><img src="https://pbs.twimg.com/media/C29iCT6XgAAxuvO.jpg" alt = "thumbimg1" class = "img-responsive"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-1"><img src="http://www.fitness.me.uk/wp-content/uploads/Six-Pack-Abs-770x300.jpg" alt = "thumbimg2" class = "img-responsive"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-2"><img src="img/lifting.jpg" alt = "thumbimg3" class = "img-responsive"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-3"><img src="http://simply-progress.de/wp-content/uploads/2016/01/Fotolia_89797147_S-770x300.jpg" alt = "thumbimg4" class = "img-responsive"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-4"><img src="img/hantle.jpg" alt = "thumbimg5" class = "img-responsive"></a>
+                            </li>
+
+                            <li class="col-sm-2">
+                                <a class="thumbnail-carousel image" id="carousel-selector-5"><img src="http://crossfitgranadahills.com/wp-content/uploads/2014/12/Crossfit-1000x300-770x300.jpg" alt = "thumbimg6" class = "img-responsive"></a>
+                            </li>
+                        </ul>                 
+                </div>
+        </div>
+</div>
+<div class = "container">
+<div id = "testimonials">
+	</div>
+</div>
+			
+<div class="container"> <!-- Poczatek kontenera -->
+<div class="row-masonry post hidden-div" id="ms-container">
+    <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+			
+          <img src="https://stephboreldesign.com/wp-content/uploads/2012/03/lorem-ipsum-logo.jpg" alt="..." class = "img-responsive">
+			<div class = "tag">
+				<div class = "buttonw"><a href="#" class="btn btn-primary btn-xs disabled" role="button">News</a>
+				<div class = "buttonw2"><a href="#" class="btn btn-default btn-xs disabled" role="button">08.03.2016</a>
+				<div class = "buttonw3"><div class = "share2" data-ayoshare="http://your-site.com/test.html">
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+			
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<span class="glyphicon glyphicon-eye-open" aria-hidden="true" data-toggle="tooltip" data-placement="left" data-container="body" title="Wyświetlono"></span>
+				<?php
+require_once("polaczenie.php");
+$result = @mysql_query("SELECT count(id) from online;");
+echo @mysql_result($result, 0);
+?>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="http://51.254.39.30/naturalnamasa/podstrony/art1.htm#disqus_thread" class="btn btn-default">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://craziestgadgets.com/wp-content/uploads/2011/04/brick_iphone_case_worship_inuse-325x325.jpg" alt="..." >
+			<div class = "tag">
+				<div class = "buttonw"><a href="#" class="btn btn-info btn-xs disabled" role="button">Dieta</a>
+				<div class = "buttonw2"><a href="#" class="btn btn-default btn-xs disabled" role="button">2016.03.08</a>
+				<div class = "buttonw3"><div class = "share2" data-ayoshare="http://your-site.com/test.html">
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<span class="glyphicon glyphicon-eye-open" aria-hidden="true" data-toggle="tooltip" data-placement="left" data-container="body" title="Wyświetlono"></span>
+				<?php
+require_once("polaczenie.php");
+$result = @mysql_query("SELECT count(id) from online2;");
+echo @mysql_result($result, 0);
+?>
+
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="http://51.254.39.30/naturalnamasa/podstrony/art2.htm#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="https://stephboreldesign.com/wp-content/uploads/2012/03/lorem-ipsum-logo.jpg" alt="...">
+			<div class = "tag">
+				<div class = "buttonw"><a href="#" class="btn btn-danger btn-xs disabled" role="button">Artykul</a>
+				<div class = "buttonw2"><a href="#" class="btn btn-default btn-xs disabled" role="button">2016.03.08</a>
+				<div class = "buttonw3"><div class = "share2" data-ayoshare="http://your-site.com/test.html">
+				</div>
+				</div>
+				</div>
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><p class = "text-info">Stosowanie dopingu</p></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania. Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><p class = "text-info">Stosowanie dopingu</p></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+  
+      <div class="col-sm-6 col-md-4 ms-item">
+		<div class="thumbnail">
+          <img src="http://www.eguzki.net/wp-content/uploads/revslider/nirea/osabasam34-242x200.png" alt="..." width="200" height="200">
+			<div class = "tag">
+				<div class = "buttonw">132213
+				</div>
+			</div>
+				<div class="caption">
+				<h3><span class = "text-info">Stosowanie dopingu</span></h3>
+				<p>Czy warto stosowac doping? Jakie sa ewentualnie skutki uboczne jego stosowania.</p>
+				<p><a href="#" class="btn btn-primary" role="button">Czytaj</a> <a href="#disqus_thread" class="btn btn-default" role="button">Komentarze</a></p>
+				</div>
+		</div>
+	</div>
+</div> <!-- Koniec kontenera -->
+<div class = "container text-center">
+	<div class="hidden-div">
+	<nav>
+  	<ul class="pagination">
+    	<li class="disabled"><a href="#" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>
+    	<li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+	<li><a href="#">2 <span class="sr-only">(current)</span></a></li>
+	<li><a href="#">3 <span class="sr-only">(current)</span></a></li>
+	<li><a href="#">4 <span class="sr-only">(current)</span></a></li>
+	<li><a class="page-link" href="#" aria-label="Next"><span aria-hidden="true">&raquo;</span> 
+  	</ul>
+	</nav>
+	</div>
+</div>	
+	
+</div>
+
+
+
+		
+<div class = "navbar navbar-inverse navbar-static-bottom hidden-div" style = "margin:0">
+	<div class="container">
+		<div class="col-xs-12 col-sm-2 text-left">
+                <ul style = "list-style-type:none; padding-left:0px;">
+					<li><a href="#" class = "navbar-link">Glowna</a></li>
+					<li><a href="#" class = "navbar-link">Wiadomosci</a></li>
+					<li><a href="#" class = "navbar-link">O nas</a></li>
+					<li><a href="#" class = "navbar-link">Kontakt</a></li>
+					<li><a href="#" class = "navbar-link">Wspolpraca</a></li>
+				</ul>
+		</div>
+		
+		<div class="col-xs-12 col-sm-2 text-left">
+                <ul style = "list-style-type:none; padding-left:0px;">
+					<li><a href="#" class = "navbar-link">Glowna</a></li>
+					<li><a href="#" class = "navbar-link">Wiadomosci</a></li>
+					<li><a href="#" class = "navbar-link">O nas</a></li>
+					<li><a href="#" class = "navbar-link">Kontakt</a></li>
+					<li><a href="#" class = "navbar-link">Wspolpraca</a></li>
+				</ul>
+		</div>
+		
+		<div class="col-xs-12 col-sm-4 text-center">
+                <a href="#"><i id="social-fb" class="fa fa-facebook-square fa-3x social"></i></a>
+	            <a href="#"><i id="social-gp" class="fa fa-youtube-square fa-3x social"></i></a>
+	            <a href="#"><i id="social-em" class="fa fa-envelope-square fa-3x social"></i></a>
+				<p style="color:grey">&copy; 2015<script>new Date().getFullYear()>2015&&document.write("-"+new Date().getFullYear());</script>, All rights reserved</br>
+				naturalnamasa.pl</p>
+		</div>
+		
+                   
+            <div class="col-xs-12 col-sm-4 donate text-right">
+			<span class="fa-stack fa-lg" data-toggle="tooltiptop" data-container="body" title="PayPal">
+  <i class="fa fa-circle-thin fa-stack-2x"></i>
+  <i class="fa fa-paypal fa-stack-1x"></i>
+</span>
+<span class="fa-stack fa-lg" data-toggle="tooltiptop" data-container="body" title="Bitcoin">
+  <i class="fa fa-circle-thin fa-stack-2x"></i>
+  <i class="fa fa-bitcoin fa-stack-1x"></i>
+</span>
+
+			<p>Jeżeli doceniasz rzeczy które tworzymy na tej stronie możesz nam pomóc klikając w powyższy obrazek, każda złotówka się liczy, dzięki!<p>              
+		</div>
+</div>
+
+		<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+		<script src = "js/bootstrap.js"></script>
+		<script id="dsq-count-scr" src="//naturalnamasa.disqus.com/count.js" async></script>
+		<script src="https://npmcdn.com/masonry-layout@4.0/dist/masonry.pkgd.min.js"></script>
+		<script src="js/viewportchecker.js"></script>
+		<script src="js/ayoshare.js"></script>
+		<script src="js/typed.js"></script>
+		
+		<script>
+$(document).ready(function(){
+    var classes = ["animated fadeInRight", "animated fadeInLeft", "animated rotateInDownLeft", "animated rotateInUpRight", "animated rotateInUpLeft", "animated rotateInDownRight", "animated rollIn"];
+
+    $(".slide0, .slide1, .slide2, .slide3, .slide4, .slide5").each(function(){
+        $(this).addClass(classes[~~(Math.random()*classes.length)]);
+    });
+});
+</script>
+
+		<script>
+		$('[data-toggle="tooltiptop"]').tooltip({
+    'placement': 'top',
+	container: 'body'
+});
+  $('[data-toggle="tooltiptop"]').on('shown.bs.tooltip', function () {
+        $('.tooltip').addClass('animated bounce');
+    })
+$('[data-toggle="tooltip"]').tooltip({
+    'placement': 'left',
+	container: 'body'
+	});
+</script>
+<script>
+$(document).ready(function () {
+	$("div.hidden-div").show();
+});
+</script>		
+<script>
+var quoteList = new Array();
+quoteList[0] = '<blockquote class="blockquote-reverse"><p>“ Trenując bicepsy, wyobrażam sobie wysokie góry. Dzięki swojej wyobraźni przekonałem się, że potrafię wszystko, kiedy tylko mocno, bardzo mocno tego chcę i wierzę, że to osiągnę. „</p><footer>Arnold Schwarzenegger<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[1] = '<blockquote><p>“ Każdy chce być kulturystą, ale nikt nie chce dźwigać ciężarów. „</p><footer>Ronnie Coleman<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[2] = '<blockquote class="blockquote-reverse"><p>“ Wszystko możesz, nic nie musisz. „</p><footer>Arnold Schwarzenegger<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[3] = '<blockquote><p>“ Im bardziej jesteś pochłonięty przez coś, tym lepsze masz szanse osiągnięcia tego. „</p><footer>Frank Zane<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[4] = '<blockquote class="blockquote-reverse"><p>“ Wielu facetów ma lepsze geny, ale jeśli pracujesz ciężko i konsekwentnie, możesz ich przewyższyć. „</p><footer>Frank Zane<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[5] = '<blockquote><p>“ Konsekwencja jest tym czym budujesz sylwetkę. „</p><footer>Frank Zane<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[6] = '<blockquote class="blockquote-reverse"><p>“ Słabość jest wyborem, dlatego jestem silny. „</p><footer>Frank Zane<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[7] = '<blockquote><p>“ By osiągać sukcesy w kulturystyce trzeba być dobrym obserwatorem. „</p><footer>Frank Zane<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[8] = '<blockquote class="blockquote-reverse"><p>“ Im ciężej pracujesz by zwyciężyć i krwawisz z tego powodu, wtedy wygrana smakuje jeszcze lepiej. „</p><footer>Branch Warren<cite title="Source Title"></cite></footer></blockquote>';
+quoteList[9] = '<blockquote><p>“ 20 lat zajęło mi dojście do aktualnej sylwetki, potrzebujesz to co ja już mam - UWIERZYĆ W SIEBIE. „</p><footer>Branch Warren<cite title="Source Title"></cite></footer></blockquote>';
+
+var randomQuote = Math.floor(Math.random()*quoteList.length);
+$("#testimonials").html(quoteList[randomQuote]);
+</script>
+<script>
+    $(function(){
+
+        $(".typedjs").typed({
+            strings: ["^800<strong>Wiara we własne umiejetności^2000</strong>", "<strong>Twardy charakter</strong>", "<strong>Nieustępliwość w dążeniu do celu</strong>", "<strong>witaj, naturalnamasa.pl^8000</strong>"],
+            stringsElement: null,
+            typeSpeed: 25,
+            backDelay: 500,
+            loop: true,
+            contentType: 'html', // or text
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+    </script>
+
+		
+<script>
+     $(function() {
+    
+        $(".share2").ayoshare({
+            google : false,
+            facebook : true,
+            pinterest : false,
+            linkedin : false,
+            twitter : false,
+            email : false,
+            whatsapp : false,
+            telegram : false,
+            line : false,
+            bbm : false,
+            viber : false,
+            sms : false
+        });
+        
+        $("#unik").ayoshare({
+            google : true,
+            stumbleupon : true,
+            facebook : true,
+            pinterest : true,
+            bufferapp : true,
+            reddit : true,
+            vk : true,
+            pocket : true,
+            twitter : true,
+            digg : true,
+            telegram : true,
+            sms : true
+        });
+        
+    });
+</script>
+		
+		
+
+<script>
+$(document).ready(function() {
+    $('.post').addClass("custom-hidden").viewportChecker({
+        classToAdd: 'visible animated fadeInUp delay-1s',
+        offset: 350,
+       });
+});
+
+$(document).ready(function() {
+    $('.post2').addClass("custom-hidden").viewportChecker({
+        classToAdd: 'visible animated tada',
+        offset: 100
+       });
+});
+
+$(document).ready(function() {
+    $('.post3').addClass("custom-hidden").viewportChecker({
+        classToAdd: 'visible animated tada',
+        offset: 50
+       });
+});
+
+
+</script>
+
+<script>
+$(window).load(function(){
+	var $container = $('.row-masonry');
+	// initialize
+	$container.masonry({
+		itemSelector: '.ms-item'
+	});
+});
+</script>
+
+
+<script>
+  jQuery(document).ready(function($) {
+ 
+        $('#myCarousel').carousel({
+                interval: 5000,
+        });
+ 
+        $('#carousel-text').html($('#slide-content-0').html());
+ 
+        //Handles the carousel thumbnails
+       $('[id^=carousel-selector-]').click( function(){
+            var id = this.id.substr(this.id.lastIndexOf("-") + 1);
+            var id = parseInt(id);
+            $('#myCarousel').carousel(id);
+        });
+ 
+ 
+        // When the carousel slides, auto update the text
+        $('#myCarousel').on('slid.bs.carousel', function (e) {
+                 var id = $('.item.active').data('slide-number');
+                $('#carousel-text').html($('#slide-content-'+id).html());
+        });
+});
+</script>
+
+<script>
+$(window).scroll(function() {
+  if ($(document).scrollTop() > 15) {
+    $('nav').addClass('shrink');
+  } else {
+    $('nav').removeClass('shrink');
+  }
+});
+</script>
+
+
+	</body>
+
+</html>
